@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: #660000;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace ;
+    width: 100%;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    padding: 1em 1em;
+    margin-bottom: 1em;
+    text-align: center;
+
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 0em 1em;
+
+}
+nav li{
+    display: inline-block;
+    text-align: right;
+    padding: 1em 0.5em;
+}
+nav a:hover{
+    color: #660000;
+}
+footer{
+    background-color: black;
+    color: #660000;
+    text-align: center;
+    padding: 2em;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    margin: 1em;
+}
+.row{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.col{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 1em;
+    box-shadow: 0 0 10px black;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.col1{
+    width: 21%;
+    display: inline-block;
+    box-shadow: 0 0 10px black;
+    border-radius: 2em;
+    margin: 1em;
+    padding-bottom: 0.5em;
+}
+.col1:hover{
+    border-radius: 2em;
+    border: #ffffff solid;
+    margin: 0.8em;
+}
+
+
+.logoimg2s{
+    width: 400px;
+    height: 200px;
+    border-radius: 1em;
+}
+.logocodema2{
+    width: 12%;
+    margin: 0em auto;
+}
+.logo-carro{
+    width: 10%;
+    margin: auto;
+    padding-top: 1em;
+}
+
+
+.menu-navegacion{
+    width: 100%;
+    margin: 0em auto;
+}
+.logocodema{
+    width: 30%;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.logoimg{
+    width: 200px;
+    height: 200px;
+    vertical-align: top;
+}
+.carro_apa{
+    border: white solid;
+    width: 100%;
+    margin: 1em auto;
+    box-sizing: border-box;
+
+
+}
+.img_carro{
+    width: 45%;
+    margin: 3em 3em;
+    display: inline-block;
+
+
+}
+.sub-carro{
+    font-size: 2.5em;
+}
+.boton-1{
+    width: 200px;
+    height: 50px;
+    color:#660000;
+    background-color: white;
+    border-radius: 1.5em;
+    border: none;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin: 1em auto;
+    cursor: pointer;
+
+}
+.carac{
+    text-align: center;
+    padding-top: 1em;
+}
+.boton-1:hover{
+    background-color: black;
+}
+.boton-2{
+    width: 70%;
+    padding: 1em auto;
+    margin: 1em auto;
+    text-align: center;
+}
+
+
+.info2{
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 3em;
+    box-shadow: 0 0 10px black;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.icon{
+    font-size: 3.5em;
+    width: 10%;
+    display: inline-block;
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 0.3em;
+}
+
+
+.spec{
+    font-size: 1em;
+    width: 39%;
+    display: inline-block;
+    vertical-align: middle;    
+}
+.Especificaciones_tecnicas{
+    border: #000000 solid;
+    width: 80%;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 0 10px black;
+    border-radius: 1em;
+}
+summary{
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+
+
+.contactanos{
+    border: #000000 solid;
+    padding: 1em;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+form{
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    padding: 2em;
+    box-shadow: 0 0 10px #000000;
+    border-radius: 1em;
+    display: inline-block;
+    vertical-align: top;
+
+}
+input, textarea{
+    outline: black;
+    background-color: #600;
+    padding: 1em;
+    margin: 0.4em;
+    border-radius: 1em;
+    border: none;
+    color: #660000;
+    background-color: #ffffff;
+    font-size: 1em;
+    width: 40%;
+}
+textarea{
+    resize: vertical;
+    min-width: 87%;
+    min-height: 5em;
+    max-height: 9em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: #660000;
+
+}
+.btn{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.Comentario{
+    width: 90%;
+    resize: vertical;
+}
+.maps{
+    display: inline-block;
+    width: 40%;
+    box-shadow: 0 0 10px black;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 0 1em;
+}
+.contactanos h3{
+    padding: 2em;
+    font-size: 1.5em;
+}
+
+.interes{
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0em 1em;
+}
+.carros_interes{
+    border: navy solid;
+    margin: 1em;
+    display: inline-block;
+    padding: 1em 1em;
+}
+.img_car{
+    padding: 1em;
+    border-radius: 1em;
+}
+.col_car, .col_car1{
+    border: white solid;
+    width: 18%;
+    box-shadow: 0 0 10px black;
+    border-radius: 1em;
+    display: inline-block;
+    margin: 1em 0.3em;
+    text-align: center;
+}
+button{
+    width: 200px;
+    height: 50px;
+    color:#660000;
+    background-color: white;
+    border-radius: 1.5em;
+    border: none;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin: 1em auto;
+    cursor: pointer;
+    margin: 1em;
+}
+button:hover{
+    color: #660000;
+    background-color: #000000;
+}
+
+/* inicio estilos apartado chevrolet*/
+
+
+.modelo_carro{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 1em 0em;
+
+}
+.modelo_carro:hover{
+    border: #ffffff solid;
+    border-radius: 1em;
+}
+.img_chevrolet{
+    width: 30%;
+    border-radius: 1em;
+    margin: 1em;
+    border: #000000 solid;
+    display: inline-block;
+
+}
+.img_chevrolet2{
+    width: 80%;
+    border: #000000 solid;
+    border-radius: 1em;
+}
+.info_modelo{
+    width: 30%;
+    border: #000000 solid;
+    padding: 2em 1em;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin: 2em;
+    box-shadow: 0 0 10px black;
+    border-radius: 1em;
+}
+.precio{
+    font-size: 1.5em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    display: inline-block;
+    width: 20%;
+    vertical-align: text-bottom;
+    color: #ffffff;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    border-radius: 1em;
+}
+.Nosotros{ /* Clase texto apartado nosotros*/
+    width: 60%;
+    font-size: 1em;
+    text-align: center;
+    margin: auto;
+    padding: 2em;
+    box-shadow: 0 0 10px black;
+    border-radius: 1em;
+
+}
+.texto_nosotros{
+    padding: 1em;
+    margin: 1em;
+    
+}
+.subtitulo{
+    color: gray;
+    font-size: 2em;
+}
+.banner{
+    width: 50%;
+    margin: 2em auto;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 2em;
+
+}
+.banner1{
+    border-radius: 2em ;
+}
+
+/*estilos para el apartado de terminos y condiciones de codema*/
+
+main {     /*La etiqueta <main> en HTML5 es un elemento semántico que se utiliza para representar el contenido principal de un documento o aplicación web. Su propósito es mejorar la accesibilidad y la estructura del contenido de una página al distinguir claramente el contenido principal del contenido repetitivo, como encabezados, barras laterales, menús y pie de página.                  */
+    max-width: 800px;
+    margin: 1em auto;
+    padding: 2em;
+    background-color: #ededed;
+    color: #000000;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.terms-container h2 {
+    border-bottom: 2px solid #000000;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.terms-container a{
+    color: purple;
+    text-decoration: dashed;
+}
+.terms-container ul {
+    list-style-type: square; /*list-style-type se utiliza para definir el estilo de los marcadores de una lista. La declaración list-style-type: disc; aplica un estilo de marcador en forma de disco (o círculo sólido) a los elementos de una lista desordenada (<ul>)*/
+    margin-left: 20px;
+}
+
+
+/*Final*/
+
+
+/* Media Queries    diseño responsivo*/
+/*
+    body{
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    h1{
+        font-size: medium;
+    }
+    .menu-items{
+        flex-direction: column;
+    }
+*/
+/*Para celulares*/
+@media screen and (max-width: 684px){
+
+    h1{
+        font-size: medium;
+    }
+    nav li{
+        width: 70%;
+        text-align: center;
+        
+    }
+
+    .col1{
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    /*Apartado chevrolet*/
+
+
+    .logo-carro{
+        width: 30%;
+        padding: 0%;
+        margin: 0em auto;
+    }
+    .modelo_carro{
+        text-align: center;
+    }
+    .img_chevrolet2{
+        width: 70%;
+    }
+    .img_chevrolet{
+        width: 80%;
+    }
+    .info_modelo{
+        width: 70%;
+    }
+    .precio{
+        width: 60%;
+    }
+    /*Apartado del carro*/
+
+    .img_carro{
+        width: 80%;
+        text-align: center;
+    }
+    .info2{
+        width: auto;
+        margin-top: 0%;
+    }
+    .sub-carro{
+        font-size: 2em;
+    }
+    .boton-1{
+        width: 88%;
+        margin: 0.3em auto;
+    }
+    .spec{
+        margin: 1em;
+    }
+    form{
+        width: auto;
+        margin: 2em auto;
+    }
+    input{
+        width: 60%;
+    }
+    .maps{
+        width: auto;
+    }
+    /*Apartado nosotros*/
+    .texto_nosotros{
+        margin: 0em;
+        padding: 1em 0em;
+    }
+
+    }
+
+/*Para tablets*/
+@media screen and (min-width:685px) and (max-width:1333px){
+    h1{
+        font-size: medium;
+    }
+    nav li{
+        width: 70%;
+        text-align: center;
+        
+    }
+
+    .col1{
+        flex-wrap: wrap;
+        width: 40%;
+    }
+
+
+
+    /*Apartado chevrolet*/
+    .logo-carro{
+        width: 20%;
+        padding: 0%;
+        margin: 0em auto;
+    }
+    .modelo_carro{
+        text-align: center;
+    }
+    .img_chevrolet{
+        width: 50%;
+
+    }
+    .img_chevrolet2{
+        width: 100%;
+        display: inline-block;
+    }
+    .precio{
+        width: 60%;
+    }
+
+    /*Apartado del carro*/
+    .img_carro{
+        width: 45%;
+        margin: 2em ;
+    }
+    .info2{
+        width: 30%;
+        margin: 2em auto;
+        display: inline-block;
+        border: #000000 solid;
+    }
+    .sub-carro{
+        font-size: 2em;
+    }
+    .boton-1{
+        width: 88%;
+        margin: 0.3em auto;
+    }
+    .spec{
+        margin: 1em;
+    }
+    form{
+        width: auto;
+        margin: 2em auto;
+    }
+    input{
+        width: 60%;
+    }
+    .maps{
+        width: auto;
+    }
+    /*Apartado nosotros*/
+    .texto_nosotros{
+        margin: 0em;
+        padding: 1em 0em;
+    }
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
